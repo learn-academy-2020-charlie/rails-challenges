@@ -16,4 +16,8 @@ class MainController < ApplicationController
     def televesion
         render 'television.html.erb'
     end
+
+    def team
+        render 'team.html.erb'
+    end
 end

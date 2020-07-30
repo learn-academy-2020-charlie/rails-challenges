@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   get '/answer' => 'main#answer'
   get '/places' => 'main#places'
   get '/television' => 'main#television'
+  get '/team' => 'main#team'
 end
