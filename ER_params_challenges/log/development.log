@@ -1,0 +1,997 @@
+  [1m[35m (556.9ms)[0m  [1m[35mCREATE DATABASE "ER_params_practice_development" ENCODING = 'unicode'[0m
+  [1m[35m (223.3ms)[0m  [1m[35mCREATE DATABASE "ER_params_practice_test" ENCODING = 'unicode'[0m
+Started GET "/" for ::1 at 2020-07-31 09:46:24 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/learnacademy/.rvm/gems/ruby-2.7.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/learnacademy/.rvm/gems/ruby-2.7.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 18.5ms | Allocations: 409)
+Completed 200 OK in 46ms (Views: 28.2ms | ActiveRecord: 0.0ms | Allocations: 2355)
+
+
+Started GET "/3" for ::1 at 2020-07-31 09:59:16 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/3"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/3" for ::1 at 2020-07-31 09:59:42 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/3"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/3" for ::1 at 2020-07-31 10:00:22 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/3"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/3" for ::1 at 2020-07-31 10:01:12 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/3"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/3" for ::1 at 2020-07-31 10:01:27 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/3"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/home/3" for ::1 at 2020-07-31 10:01:52 -0700
+Processing by MainController#home as HTML
+  Parameters: {"number"=>"3"}
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 92)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/learnacademy/Desktop/Week-5/rails-challenges/ER_params_practice/public/packs
+[Webpacker] Hash: 15d1bb7b54cf6326b9ba
+Version: webpack 4.44.1
+Time: 4364ms
+Built at: 07/31/2020 10:02:00 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-9afcbb5693aa87623e69.js    124 KiB  application  [emitted] [immutable]  application
+js/application-9afcbb5693aa87623e69.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-9afcbb5693aa87623e69.js js/application-9afcbb5693aa87623e69.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 8384ms (Views: 8381.9ms | ActiveRecord: 0.0ms | Allocations: 18722)
+
+
+Started GET "/home/3" for ::1 at 2020-07-31 10:02:20 -0700
+Processing by MainController#home as HTML
+  Parameters: {"number"=>"3"}
+  Rendering main/home.html.erb within layouts/application
+Started GET "/home/3" for ::1 at 2020-07-31 10:04:17 -0700
+Processing by MainController#home as HTML
+  Parameters: {"number"=>"3"}
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 12.5ms | Allocations: 1382)
+Completed 500 Internal Server Error in 39ms (ActiveRecord: 0.0ms | Allocations: 3243)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1> Number Cubed</h1>
+
+<%= "Your number cubed is " @number%>
+):
+1:    <h1> Number Cubed</h1>
+2:    
+3:    <%= "Your number cubed is " @number%>
+  
+app/views/main/home.html.erb:3: syntax error, unexpected instance variable, expecting ')'
+app/views/main/home.html.erb:3: syntax error, unexpected instance variable, expecting ')'
+app/views/main/home.html.erb:3: syntax error, unexpected instance variable, expecting ')'
+app/views/main/home.html.erb:3: syntax error, unexpected instance variable, expecting ')'
+app/views/main/home.html.erb:3: syntax error, unexpected instance variable, expecting ')'
+app/views/main/home.html.erb:3: syntax error, unexpected instance variable, expecting ')'
+app/controllers/main_controller.rb:4:in `home'
+Started GET "/home/3" for ::1 at 2020-07-31 10:04:47 -0700
+Processing by MainController#home as HTML
+  Parameters: {"number"=>"3"}
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 93)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 49ms (Views: 45.8ms | ActiveRecord: 0.0ms | Allocations: 6706)
+
+
+Started GET "/home/3" for ::1 at 2020-07-31 10:05:08 -0700
+Processing by MainController#home as HTML
+  Parameters: {"number"=>"3"}
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 91)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 22.7ms | ActiveRecord: 0.0ms | Allocations: 4785)
+
+
+Started GET "/home/3" for ::1 at 2020-07-31 10:05:10 -0700
+Processing by MainController#home as HTML
+  Parameters: {"number"=>"3"}
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 8)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms | Allocations: 3800)
+
+
+Started GET "/home/3" for ::1 at 2020-07-31 10:05:14 -0700
+Processing by MainController#home as HTML
+  Parameters: {"number"=>"3"}
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 91)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 30ms (Views: 29.1ms | ActiveRecord: 0.0ms | Allocations: 4785)
+
+
+Started GET "/home/3" for ::1 at 2020-07-31 10:05:30 -0700
+Processing by MainController#home as HTML
+  Parameters: {"number"=>"3"}
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1852)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 2985)
+
+
+  
+ActionView::Template::Error (undefined method `pow' for Math:Module):
+    1: <h1> Number Cubed</h1>
+    2: 
+    3: <%= "Your number cubed is #{Math.pow(@number.to_i,3)}"%>
+  
+app/views/main/home.html.erb:3
+app/controllers/main_controller.rb:4:in `home'
+Started GET "/home/3" for ::1 at 2020-07-31 10:05:46 -0700
+Processing by MainController#home as HTML
+  Parameters: {"number"=>"3"}
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 6.4ms | Allocations: 89)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 39ms (Views: 37.5ms | ActiveRecord: 0.0ms | Allocations: 4803)
+
+
+Started GET "/home/3" for ::1 at 2020-07-31 10:06:13 -0700
+Processing by MainController#home as HTML
+  Parameters: {"number"=>"3"}
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 90)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 24ms (Views: 22.4ms | ActiveRecord: 0.0ms | Allocations: 4792)
+
+
+Started GET "/home/3" for ::1 at 2020-07-31 10:06:31 -0700
+Processing by MainController#home as HTML
+  Parameters: {"number"=>"3"}
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 1.6ms | Allocations: 90)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 32ms (Views: 31.5ms | ActiveRecord: 0.0ms | Allocations: 4784)
+
+
+Started GET "/home/3" for ::1 at 2020-07-31 10:06:57 -0700
+Processing by MainController#home as HTML
+  Parameters: {"number"=>"3"}
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 1.3ms | Allocations: 92)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 21ms (Views: 19.8ms | ActiveRecord: 0.0ms | Allocations: 4784)
+
+
+Started GET "/home/3" for ::1 at 2020-07-31 10:07:17 -0700
+Processing by MainController#home as HTML
+  Parameters: {"number"=>"3"}
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 1.2ms | Allocations: 994)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 2125)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1> Number Cubed</h1>
+
+<%= @exp = @number**3" %>
+<%= Your number cubed is #{@exp}"%>
+):
+1:    <h1> Number Cubed</h1>
+2:    
+3:    <%= @exp = @number**3" %>
+4:    <%= Your number cubed is #{@exp}"%>
+  
+app/views/main/home.html.erb:3: syntax error, unexpected string literal, expecting ')'
+app/views/main/home.html.erb:3: syntax error, unexpected string literal, expecting ')'
+app/views/main/home.html.erb:3: syntax error, unexpected string literal, expecting ')'
+app/views/main/home.html.erb:3: syntax error, unexpected string literal, expecting ')'
+app/views/main/home.html.erb:3: syntax error, unexpected string literal, expecting ')'
+app/views/main/home.html.erb:3: syntax error, unexpected string literal, expecting ')'
+app/controllers/main_controller.rb:4:in `home'
+Started GET "/home/3" for ::1 at 2020-07-31 10:07:26 -0700
+Processing by MainController#home as HTML
+  Parameters: {"number"=>"3"}
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 4.7ms | Allocations: 2129)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 3264)
+
+
+  
+ActionView::Template::Error (undefined method `**' for "3":String
+Did you mean?  *):
+    1: <h1> Number Cubed</h1>
+    2: 
+    3: <%= @exp = @number**3 %>
+    4: <%= "Your number cubed is #{@exp}"%>
+  
+app/views/main/home.html.erb:3
+app/controllers/main_controller.rb:4:in `home'
+Started GET "/home/3" for ::1 at 2020-07-31 10:07:32 -0700
+Processing by MainController#home as HTML
+  Parameters: {"number"=>"3"}
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 4.0ms | Allocations: 2030)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 2441)
+
+
+  
+ActionView::Template::Error (undefined method `**' for "3":String
+Did you mean?  *):
+    1: <h1> Number Cubed</h1>
+    2: 
+    3: <%= @exp = @number**3 %>
+    4: <%= "Your number cubed is #{@exp}"%>
+  
+app/views/main/home.html.erb:3
+app/controllers/main_controller.rb:4:in `home'
+Started GET "/home/3" for ::1 at 2020-07-31 10:07:37 -0700
+Processing by MainController#home as HTML
+  Parameters: {"number"=>"3"}
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 3.3ms | Allocations: 2127)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 3262)
+
+
+  
+ActionView::Template::Error (undefined method `**' for "3":String
+Did you mean?  *):
+    1: <h1> Number Cubed</h1>
+    2: 
+    3: <%= exp = @number**3 %>
+    4: <%= "Your number cubed is #{@exp}"%>
+  
+app/views/main/home.html.erb:3
+app/controllers/main_controller.rb:4:in `home'
+Started GET "/home/3" for ::1 at 2020-07-31 10:08:20 -0700
+Processing by MainController#home as HTML
+  Parameters: {"number"=>"3"}
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 5.1ms | Allocations: 2203)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 3338)
+
+
+  
+ActionView::Template::Error (undefined method `to_int' for "3":String
+Did you mean?  to_i
+               taint):
+    1: <h1> Number Cubed</h1>
+    2: 
+    3: <%= exp = @number.to_int**3 %>
+    4: <%= "Your number cubed is #{exp}"%>
+  
+app/views/main/home.html.erb:3
+app/controllers/main_controller.rb:4:in `home'
+Started GET "/home/3" for ::1 at 2020-07-31 10:08:29 -0700
+Processing by MainController#home as HTML
+  Parameters: {"number"=>"3"}
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 106)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 30ms (Views: 24.4ms | ActiveRecord: 0.0ms | Allocations: 4820)
+
+
+Started GET "/home/3" for ::1 at 2020-07-31 10:09:25 -0700
+Processing by MainController#home as HTML
+  Parameters: {"number"=>"3"}
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 1.4ms | Allocations: 107)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 21.0ms | ActiveRecord: 0.0ms | Allocations: 4787)
+
+
+Started GET "/home/3" for ::1 at 2020-07-31 10:09:31 -0700
+Processing by MainController#home as HTML
+  Parameters: {"number"=>"3"}
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 107)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.0ms | Allocations: 4803)
+
+
+Started GET "/home/3" for ::1 at 2020-07-31 10:09:41 -0700
+Processing by MainController#home as HTML
+  Parameters: {"number"=>"3"}
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 90)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 26ms (Views: 24.3ms | ActiveRecord: 0.0ms | Allocations: 4784)
+
+
+Started GET "/home/3" for ::1 at 2020-07-31 10:17:05 -0700
+  
+SyntaxError (/Users/learnacademy/Desktop/Week-5/rails-challenges/ER_params_practice/app/controllers/main_controller.rb:11: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/main_controller.rb:11: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/main_controller.rb:11: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/main_controller.rb:11: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/home/3" for ::1 at 2020-07-31 10:17:20 -0700
+Processing by MainController#home as HTML
+  Parameters: {"number"=>"3"}
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 2.6ms | Allocations: 128)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 18.3ms | ActiveRecord: 0.0ms | Allocations: 4841)
+
+
+Started GET "/home/3" for ::1 at 2020-07-31 10:18:22 -0700
+Processing by MainController#home as HTML
+  Parameters: {"number"=>"3"}
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 123)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 14.8ms | ActiveRecord: 0.0ms | Allocations: 4808)
+
+
+Started GET "/home/3" for ::1 at 2020-07-31 10:18:22 -0700
+Processing by MainController#home as HTML
+  Parameters: {"number"=>"3"}
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 22)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 3813)
+
+
+Started GET "/nextpage/6/3" for ::1 at 2020-07-31 10:18:23 -0700
+Processing by MainController#nextpage as HTML
+  Parameters: {"num1"=>"6", "num2"=>"3"}
+  Rendering main/nextpage.html.erb within layouts/application
+  Rendered main/nextpage.html.erb within layouts/application (Duration: 0.6ms | Allocations: 92)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms | Allocations: 4029)
+
+
+Started GET "/nextpage/6/3" for ::1 at 2020-07-31 10:18:55 -0700
+Processing by MainController#nextpage as HTML
+  Parameters: {"num1"=>"6", "num2"=>"3"}
+  Rendering main/nextpage.html.erb within layouts/application
+  Rendered main/nextpage.html.erb within layouts/application (Duration: 1.3ms | Allocations: 985)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 2116)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>"Your 2 numbers are #{@number1} and #{@number2}" </h1>
+
+<%= " #{if (@number1.to_i % @number1.to_i == 0)}"%>
+):
+1:    <h1>"Your 2 numbers are #{@number1} and #{@number2}" </h1>
+2:    
+3:    <%= " #{if (@number1.to_i % @number1.to_i == 0)}"%>
+  
+app/views/main/nextpage.html.erb:3: syntax error, unexpected '}', expecting `then' or ';' or '\n'
+app/views/main/nextpage.html.erb:5: unterminated string meets end of file
+app/views/main/nextpage.html.erb:5: syntax error, unexpected end-of-input, expecting '}'
+app/views/main/nextpage.html.erb:3: syntax error, unexpected '}', expecting `then' or ';' or '\n'
+app/views/main/nextpage.html.erb:5: unterminated string meets end of file
+app/views/main/nextpage.html.erb:5: syntax error, unexpected end-of-input, expecting '}'
+app/views/main/nextpage.html.erb:3: syntax error, unexpected '}', expecting `then' or ';' or '\n'
+app/views/main/nextpage.html.erb:5: unterminated string meets end of file
+app/views/main/nextpage.html.erb:5: syntax error, unexpected end-of-input, expecting '}'
+app/views/main/nextpage.html.erb:3: syntax error, unexpected '}', expecting `then' or ';' or '\n'
+app/views/main/nextpage.html.erb:5: unterminated string meets end of file
+app/views/main/nextpage.html.erb:5: syntax error, unexpected end-of-input, expecting '}'
+app/views/main/nextpage.html.erb:3: syntax error, unexpected '}', expecting `then' or ';' or '\n'
+app/views/main/nextpage.html.erb:5: unterminated string meets end of file
+app/views/main/nextpage.html.erb:5: syntax error, unexpected end-of-input, expecting '}'
+app/views/main/nextpage.html.erb:3: syntax error, unexpected '}', expecting `then' or ';' or '\n'
+app/views/main/nextpage.html.erb:5: unterminated string meets end of file
+app/views/main/nextpage.html.erb:5: syntax error, unexpected end-of-input, expecting '}'
+app/controllers/main_controller.rb:10:in `nextpage'
+Started GET "/nextpage/6/3" for ::1 at 2020-07-31 10:19:46 -0700
+Processing by MainController#nextpage as HTML
+  Parameters: {"num1"=>"6", "num2"=>"3"}
+  Rendering main/nextpage.html.erb within layouts/application
+  Rendered main/nextpage.html.erb within layouts/application (Duration: 0.6ms | Allocations: 92)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 19.1ms | ActiveRecord: 0.0ms | Allocations: 4802)
+
+
+Started GET "/home/2" for ::1 at 2020-07-31 10:21:31 -0700
+Processing by MainController#home as HTML
+  Parameters: {"number"=>"2"}
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 126)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 21ms (Views: 15.5ms | ActiveRecord: 0.0ms | Allocations: 6131)
+
+
+Started GET "/home/2" for ::1 at 2020-07-31 10:23:04 -0700
+Processing by MainController#home as HTML
+  Parameters: {"number"=>"2"}
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 21)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 21ms (Views: 14.8ms | ActiveRecord: 0.0ms | Allocations: 5154)
+
+
+Started GET "/home/2" for ::1 at 2020-07-31 10:23:07 -0700
+Processing by MainController#home as HTML
+  Parameters: {"number"=>"2"}
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 20)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 12.5ms | ActiveRecord: 0.0ms | Allocations: 3818)
+
+
+Started GET "/home/2" for ::1 at 2020-07-31 10:24:44 -0700
+Processing by MainController#home as HTML
+  Parameters: {"number"=>"2"}
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 5.2ms | Allocations: 942)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms | Allocations: 3456)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1> Number Cubed</h1>
+
+Your number cubed is <%= #{@number}%><br/>
+<%= link_to 'Next Page', '/nextpage/6/3' %>
+):
+1:    <h1> Number Cubed</h1>
+2:    
+3:    Your number cubed is <%= #{@number}%><br/>
+4:    <%= link_to 'Next Page', '/nextpage/6/3' %>
+  
+app/views/main/home.html.erb:4: syntax error, unexpected constant, expecting ')'
+app/views/main/home.html.erb:4: syntax error, unexpected string literal, expecting ')'
+app/views/main/home.html.erb:6: unterminated string meets end of file
+app/views/main/home.html.erb:6: syntax error, unexpected end-of-input, expecting ')'
+app/views/main/home.html.erb:4: syntax error, unexpected constant, expecting ')'
+app/views/main/home.html.erb:4: syntax error, unexpected string literal, expecting ')'
+app/views/main/home.html.erb:6: unterminated string meets end of file
+app/views/main/home.html.erb:6: syntax error, unexpected end-of-input, expecting ')'
+app/views/main/home.html.erb:4: syntax error, unexpected constant, expecting ')'
+app/views/main/home.html.erb:4: syntax error, unexpected string literal, expecting ')'
+app/views/main/home.html.erb:6: unterminated string meets end of file
+app/views/main/home.html.erb:6: syntax error, unexpected end-of-input, expecting ')'
+app/views/main/home.html.erb:4: syntax error, unexpected constant, expecting ')'
+app/views/main/home.html.erb:4: syntax error, unexpected string literal, expecting ')'
+app/views/main/home.html.erb:6: unterminated string meets end of file
+app/views/main/home.html.erb:6: syntax error, unexpected end-of-input, expecting ')'
+app/views/main/home.html.erb:4: syntax error, unexpected constant, expecting ')'
+app/views/main/home.html.erb:4: syntax error, unexpected string literal, expecting ')'
+app/views/main/home.html.erb:6: unterminated string meets end of file
+app/views/main/home.html.erb:6: syntax error, unexpected end-of-input, expecting ')'
+app/views/main/home.html.erb:4: syntax error, unexpected constant, expecting ')'
+app/views/main/home.html.erb:4: syntax error, unexpected string literal, expecting ')'
+app/views/main/home.html.erb:6: unterminated string meets end of file
+app/views/main/home.html.erb:6: syntax error, unexpected end-of-input, expecting ')'
+app/controllers/main_controller.rb:4:in `home'
+Started GET "/home/2" for ::1 at 2020-07-31 10:25:32 -0700
+Processing by MainController#home as HTML
+  Parameters: {"number"=>"2"}
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 119)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 17.6ms | ActiveRecord: 0.0ms | Allocations: 4823)
+
+
+Started GET "/home/2" for ::1 at 2020-07-31 10:25:51 -0700
+Processing by MainController#home as HTML
+  Parameters: {"number"=>"2"}
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 1.2ms | Allocations: 117)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 25ms (Views: 24.3ms | ActiveRecord: 0.0ms | Allocations: 4802)
+
+
+Started GET "/home/2" for ::1 at 2020-07-31 10:26:07 -0700
+Processing by MainController#home as HTML
+  Parameters: {"number"=>"2"}
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 19)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 25ms (Views: 16.9ms | ActiveRecord: 0.0ms | Allocations: 5156)
+
+
+Started GET "/home/2" for ::1 at 2020-07-31 10:26:08 -0700
+Processing by MainController#home as HTML
+  Parameters: {"number"=>"2"}
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.0ms | Allocations: 3804)
+
+
+Started GET "/home/2" for ::1 at 2020-07-31 10:26:49 -0700
+Processing by MainController#home as HTML
+  Parameters: {"number"=>"2"}
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 1.1ms | Allocations: 122)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 21ms (Views: 19.8ms | ActiveRecord: 0.0ms | Allocations: 4822)
+
+
+Started GET "/home/3" for ::1 at 2020-07-31 10:26:57 -0700
+Processing by MainController#home as HTML
+  Parameters: {"number"=>"3"}
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 21)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.0ms | Allocations: 3810)
+
+
+Started GET "/nextpage/6/3" for ::1 at 2020-07-31 10:30:14 -0700
+Processing by MainController#nextpage as HTML
+  Parameters: {"num1"=>"6", "num2"=>"3"}
+  Rendering main/nextpage.html.erb within layouts/application
+  Rendered main/nextpage.html.erb within layouts/application (Duration: 0.8ms | Allocations: 923)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 3431)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>"Your 2 numbers are #{@number1} and #{@number2}" </h1>
+
+<%= @result_string"%>
+):
+1:    <h1>"Your 2 numbers are #{@number1} and #{@number2}" </h1>
+2:    
+3:    <%= @result_string"%>
+  
+app/views/main/nextpage.html.erb:3: syntax error, unexpected string literal, expecting ')'
+app/views/main/nextpage.html.erb:5: unterminated string meets end of file
+app/views/main/nextpage.html.erb:5: syntax error, unexpected end-of-input, expecting ')'
+app/views/main/nextpage.html.erb:3: syntax error, unexpected string literal, expecting ')'
+app/views/main/nextpage.html.erb:5: unterminated string meets end of file
+app/views/main/nextpage.html.erb:5: syntax error, unexpected end-of-input, expecting ')'
+app/views/main/nextpage.html.erb:3: syntax error, unexpected string literal, expecting ')'
+app/views/main/nextpage.html.erb:5: unterminated string meets end of file
+app/views/main/nextpage.html.erb:5: syntax error, unexpected end-of-input, expecting ')'
+app/views/main/nextpage.html.erb:3: syntax error, unexpected string literal, expecting ')'
+app/views/main/nextpage.html.erb:5: unterminated string meets end of file
+app/views/main/nextpage.html.erb:5: syntax error, unexpected end-of-input, expecting ')'
+app/views/main/nextpage.html.erb:3: syntax error, unexpected string literal, expecting ')'
+app/views/main/nextpage.html.erb:5: unterminated string meets end of file
+app/views/main/nextpage.html.erb:5: syntax error, unexpected end-of-input, expecting ')'
+app/views/main/nextpage.html.erb:3: syntax error, unexpected string literal, expecting ')'
+app/views/main/nextpage.html.erb:5: unterminated string meets end of file
+app/views/main/nextpage.html.erb:5: syntax error, unexpected end-of-input, expecting ')'
+app/controllers/main_controller.rb:10:in `nextpage'
+Started GET "/nextpage/6/3" for ::1 at 2020-07-31 10:30:28 -0700
+Processing by MainController#nextpage as HTML
+  Parameters: {"num1"=>"6", "num2"=>"3"}
+  Rendering main/nextpage.html.erb within layouts/application
+  Rendered main/nextpage.html.erb within layouts/application (Duration: 0.6ms | Allocations: 87)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 25ms (Views: 24.0ms | ActiveRecord: 0.0ms | Allocations: 4790)
+
+
+Started GET "/nextpage/6/3" for ::1 at 2020-07-31 10:31:36 -0700
+Processing by MainController#nextpage as HTML
+  Parameters: {"num1"=>"6", "num2"=>"3"}
+  Rendering main/nextpage.html.erb within layouts/application
+  Rendered main/nextpage.html.erb within layouts/application (Duration: 0.8ms | Allocations: 90)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 18.1ms | ActiveRecord: 0.0ms | Allocations: 4780)
+
+
+Started GET "/nextpage/6/3" for ::1 at 2020-07-31 10:32:53 -0700
+Processing by MainController#nextpage as HTML
+  Parameters: {"num1"=>"6", "num2"=>"3"}
+  Rendering main/nextpage.html.erb within layouts/application
+  Rendered main/nextpage.html.erb within layouts/application (Duration: 0.6ms | Allocations: 112)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.0ms | Allocations: 4802)
+
+
+Started GET "/nextpage/6/3" for ::1 at 2020-07-31 10:33:00 -0700
+Processing by MainController#nextpage as HTML
+  Parameters: {"num1"=>"6", "num2"=>"3"}
+  Rendering main/nextpage.html.erb within layouts/application
+  Rendered main/nextpage.html.erb within layouts/application (Duration: 0.8ms | Allocations: 112)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 17.6ms | ActiveRecord: 0.0ms | Allocations: 4812)
+
+
+Started GET "/nextpage/6/3" for ::1 at 2020-07-31 10:33:19 -0700
+Processing by MainController#nextpage as HTML
+  Parameters: {"num1"=>"6", "num2"=>"3"}
+  Rendering main/nextpage.html.erb within layouts/application
+  Rendered main/nextpage.html.erb within layouts/application (Duration: 1.6ms | Allocations: 118)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 18.8ms | ActiveRecord: 0.0ms | Allocations: 4820)
+
+
+Started GET "/home/2" for ::1 at 2020-07-31 10:35:31 -0700
+Processing by MainController#home as HTML
+  Parameters: {"number"=>"2"}
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 1.0ms | Allocations: 120)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 21ms (Views: 15.2ms | ActiveRecord: 0.0ms | Allocations: 5388)
+
+
+Started GET "/home/2" for ::1 at 2020-07-31 10:35:42 -0700
+Processing by MainController#home as HTML
+  Parameters: {"number"=>"2"}
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 18)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 21ms (Views: 16.0ms | ActiveRecord: 0.0ms | Allocations: 4184)
+
+
+Started GET "/home/2" for ::1 at 2020-07-31 10:36:34 -0700
+Processing by MainController#home as HTML
+  Parameters: {"number"=>"2"}
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 122)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms | Allocations: 4819)
+
+
+Started GET "/home/2" for ::1 at 2020-07-31 10:36:37 -0700
+Processing by MainController#home as HTML
+  Parameters: {"number"=>"2"}
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 1.1ms | Allocations: 21)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 12.8ms | ActiveRecord: 0.0ms | Allocations: 3822)
+
+
+Started GET "/nextpage/6/3" for ::1 at 2020-07-31 10:36:49 -0700
+Processing by MainController#nextpage as HTML
+  Parameters: {"num1"=>"6", "num2"=>"3"}
+  Rendering main/nextpage.html.erb within layouts/application
+  Rendered main/nextpage.html.erb within layouts/application (Duration: 0.9ms | Allocations: 116)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 4061)
+
+
+Started GET "/nextpage/6/3" for ::1 at 2020-07-31 10:37:10 -0700
+Processing by MainController#nextpage as HTML
+  Parameters: {"num1"=>"6", "num2"=>"3"}
+  Rendering main/nextpage.html.erb within layouts/application
+  Rendered main/nextpage.html.erb within layouts/application (Duration: 0.8ms | Allocations: 116)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 22.3ms | ActiveRecord: 0.0ms | Allocations: 4810)
+
+
+Started GET "/home/2" for ::1 at 2020-07-31 10:37:13 -0700
+Processing by MainController#home as HTML
+  Parameters: {"number"=>"2"}
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 121)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.0ms | Allocations: 4041)
+
+
+Started GET "/home/2" for ::1 at 2020-07-31 10:37:15 -0700
+Processing by MainController#home as HTML
+  Parameters: {"number"=>"2"}
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 20)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 26ms (Views: 24.6ms | ActiveRecord: 0.0ms | Allocations: 3807)
+
+
+Started GET "/nextpage/6/3" for ::1 at 2020-07-31 10:37:36 -0700
+Processing by MainController#nextpage as HTML
+  Parameters: {"num1"=>"6", "num2"=>"3"}
+  Rendering main/nextpage.html.erb within layouts/application
+  Rendered main/nextpage.html.erb within layouts/application (Duration: 0.5ms | Allocations: 115)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 14.6ms | ActiveRecord: 0.0ms | Allocations: 4820)
+
+
+Started GET "/nextpage/6/3" for ::1 at 2020-07-31 10:38:06 -0700
+Processing by MainController#nextpage as HTML
+  Parameters: {"num1"=>"6", "num2"=>"3"}
+  Rendering main/nextpage.html.erb within layouts/application
+  Rendered main/nextpage.html.erb within layouts/application (Duration: 0.9ms | Allocations: 149)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 25ms (Views: 23.6ms | ActiveRecord: 0.0ms | Allocations: 4842)
+
+
+Started GET "/nextpage/6/3" for ::1 at 2020-07-31 10:38:12 -0700
+Processing by MainController#nextpage as HTML
+  Parameters: {"num1"=>"6", "num2"=>"3"}
+  Rendering main/nextpage.html.erb within layouts/application
+  Rendered main/nextpage.html.erb within layouts/application (Duration: 2.2ms | Allocations: 148)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 28ms (Views: 20.7ms | ActiveRecord: 0.0ms | Allocations: 4838)
+
+
+Started GET "/home/2" for ::1 at 2020-07-31 10:38:13 -0700
+Processing by MainController#home as HTML
+  Parameters: {"number"=>"2"}
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 121)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 4048)
+
+
+Started GET "/nextpage/6/3" for ::1 at 2020-07-31 10:38:15 -0700
+Processing by MainController#nextpage as HTML
+  Parameters: {"num1"=>"6", "num2"=>"3"}
+  Rendering main/nextpage.html.erb within layouts/application
+  Rendered main/nextpage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 20)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 3807)
+
+
+Started GET "/home/2" for ::1 at 2020-07-31 10:38:16 -0700
+Processing by MainController#home as HTML
+  Parameters: {"number"=>"2"}
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 20)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 3808)
+
+
+Started GET "/nextpage/6/3" for ::1 at 2020-07-31 10:38:17 -0700
+Processing by MainController#nextpage as HTML
+  Parameters: {"num1"=>"6", "num2"=>"3"}
+  Rendering main/nextpage.html.erb within layouts/application
+  Rendered main/nextpage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 20)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.0ms | Allocations: 3818)
+
+
+Started GET "/home/2" for ::1 at 2020-07-31 10:38:17 -0700
+Processing by MainController#home as HTML
+  Parameters: {"number"=>"2"}
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 20)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.0ms | Allocations: 3826)
+
+
+Started GET "/nextpage/6/3" for ::1 at 2020-07-31 10:38:18 -0700
+Processing by MainController#nextpage as HTML
+  Parameters: {"num1"=>"6", "num2"=>"3"}
+  Rendering main/nextpage.html.erb within layouts/application
+  Rendered main/nextpage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 20)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 3810)
+
+
+Started GET "/home/2" for ::1 at 2020-07-31 10:38:18 -0700
+Processing by MainController#home as HTML
+  Parameters: {"number"=>"2"}
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 20)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 3818)
+
+
+Started GET "/nextpage/6/3" for ::1 at 2020-07-31 10:38:19 -0700
+Processing by MainController#nextpage as HTML
+  Parameters: {"num1"=>"6", "num2"=>"3"}
+  Rendering main/nextpage.html.erb within layouts/application
+  Rendered main/nextpage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 20)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms | Allocations: 3816)
+
+
+Started GET "/home/2" for ::1 at 2020-07-31 10:38:19 -0700
+Processing by MainController#home as HTML
+  Parameters: {"number"=>"2"}
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 20)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.0ms | Allocations: 3814)
+
+
+Started GET "/home/2" for ::1 at 2020-07-31 10:39:27 -0700
+  
+SyntaxError (/Users/learnacademy/Desktop/Week-5/rails-challenges/ER_params_practice/app/controllers/main_controller.rb:17: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/main_controller.rb:17: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/main_controller.rb:17: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/main_controller.rb:17: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/home/2" for ::1 at 2020-07-31 10:39:54 -0700
+Processing by MainController#home as HTML
+  Parameters: {"number"=>"2"}
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 135)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 29ms (Views: 27.8ms | ActiveRecord: 0.0ms | Allocations: 6793)
+
+
+Started GET "/home/2" for ::1 at 2020-07-31 10:40:22 -0700
+Processing by MainController#home as HTML
+  Parameters: {"number"=>"2"}
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 23)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 3826)
+
+
+Started GET "/home/2" for ::1 at 2020-07-31 10:40:23 -0700
+Processing by MainController#home as HTML
+  Parameters: {"number"=>"2"}
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 21)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.0ms | Allocations: 3814)
+
+
+Started GET "/home/2" for ::1 at 2020-07-31 10:40:36 -0700
+Processing by MainController#home as HTML
+  Parameters: {"number"=>"2"}
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 127)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 14.8ms | ActiveRecord: 0.0ms | Allocations: 4816)
+
+
+Started GET "/nextpage/6/3" for ::1 at 2020-07-31 10:40:42 -0700
+Processing by MainController#nextpage as HTML
+  Parameters: {"num1"=>"6", "num2"=>"3"}
+  Rendering main/nextpage.html.erb within layouts/application
+  Rendered main/nextpage.html.erb within layouts/application (Duration: 0.9ms | Allocations: 153)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.0ms | Allocations: 4094)
+
+
+Started GET "/lastpage/hi" for ::1 at 2020-07-31 10:46:33 -0700
+  
+SyntaxError (/Users/learnacademy/Desktop/Week-5/rails-challenges/ER_params_practice/app/controllers/main_controller.rb:22: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/main_controller.rb:22: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/main_controller.rb:22: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/main_controller.rb:22: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/lastpage/hi" for ::1 at 2020-07-31 10:46:53 -0700
+Processing by MainController#lastpage as HTML
+  Parameters: {"string"=>"hi"}
+  Rendering main/lastpage.html.erb within layouts/application
+  Rendered main/lastpage.html.erb within layouts/application (Duration: 0.5ms | Allocations: 87)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 18.8ms | ActiveRecord: 0.0ms | Allocations: 6797)
+
+
